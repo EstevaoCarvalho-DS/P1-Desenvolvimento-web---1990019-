@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecomerce P1</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        
+        <div id="navbar">
+            <ul><li id="logo"><a href="#">Logo</a></li></ul>
+            <ul>
+                <li id="pesquisaNavbar"><input type="text" placeholder="pesquisar"></li>
+                <li><a href="#">home </a></li>
+                <li><a href="#">carrinho</a></li>
+                <li><a href="#">favoritos</a></li>
+                <li><a href="#">perfil</a></li>
+                
+            </ul>
+           
+        </div>
+    </header>
+    <img src="./img/banner.jpg" id="imagemBanner" alt="">
+    <h1>Confira os mais novos produtos</h1>
+    <div id="cardProdutos">
+        <table id="tabelaProdutos">
+            <tr id="produtos">
+                <td><img src="./img/monitor.jpg" id="imagemProduto"alt=""></td>
+                <td id="nome">Monitor 4k 122hz</td>
+                <td id="preco">R$ 540,00</td>
+                <td><button id="comprarBtn" onclick="compra()">Comprar</button> <button id="carrinhoBtn" onclick="carrinho()">Adicionar ao carrinho</button></td>
+            </tr>
+        </table>
+        
+        <table id="tabelaProdutos">
+            <tr id="produtos">
+                <td><img src="./img/monitor2.jpg" id="imagemProduto"alt=""></td>
+                <td id="nome">Monitor quad HD</td>
+                <td id="preco">R$ 1200,00</td>
+                <td><button id="comprarBtn" onclick="compra()">Comprar</button> <button id="carrinhoBtn" onclick="carrinho()">Adicionar ao carrinho</button></td>
+            </tr>
+        </table>
+
+        <table id="tabelaProdutos">
+            <tr id="produtos">
+                <td><img src="./img/monitor3.jpg" id="imagemProduto" alt=""></td>
+                <td id="nome">Monitor Oled</td>
+                <td id="preco">R$ 321,00</td>
+                <td><button id="comprarBtn" onclick="compra()">Comprar</button> <button id="carrinhoBtn" onclick="carrinho()">Adicionar ao carrinho</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="script.js"></script>t
+</body>
+
+
+</html>

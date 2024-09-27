@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: montSerrat;
+}
+h1{
+    margin-left: 15px;
+}
+body{
+    margin: 0;
+}
+#navbar{
+    background-color:rgb(41, 41, 252);
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar ul, li,a{
+    font-weight: bold;
+    display:inline-block;
+    color: white;
+    font-family: montSerrat;
+    text-decoration: none;
+    padding-inline: 10px;
+    justify-content: right;
+}
+
+#pesquisaNavbar input{
+    border-radius: 5px;
+    border:1px solid white;
+    padding: 10px;
+    
+    width: 500px;
+    min-width:10px;
+    
+}
+#logo{
+    padding: 10px 0px 0px 0px ;
+}
+
+#imagemBanner{
+    width: 100%;
+    max-height: 500px;
+    min-height: 10%;
+}
+
+#cardProdutos{
+    display: flex;
+    height: auto;
+    
+    justify-content: center;
+   
+    font-family: montSerrat;
+    padding-bottom: 30px;
+}
+#tabelaProdutos{
+    border: 1px solid black;
+    border-radius: 10px;
+    
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+}
+#imagemProduto{
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    
+}
+#produtos{
+    display:grid;
+}
+
+#preco{
+    font-weight: bold;
+    margin: 0px 0px 15px 0px;
+    color:red;
+    display: flex;
+    justify-content: center;
+}
+#nome{
+    font-weight: bold;
+    margin: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+#carrinhoBtn{
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    justify-content: right;
+    border: none;
+    color: white;
+    background-color: blue;
+}
+#comprarBtn{
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    justify-content: left;
+    
+}
